@@ -43,7 +43,6 @@ public class LondonUsersController {
 	public ResponseEntity<List<User>> getLondonUsers() {
 		LOGGER.info("Received request, call service to get corresponding users");
 		List<User> londonUsers = usersInOrAroundLondonService.getUsersInOrAroundLondonService();
-		LOGGER.info("Received request, call service to get corresponding users ha ha");
 		return ResponseEntity.ok().contentType(MediaType.APPLICATION_JSON_UTF8).body(londonUsers);
 	}
 }
