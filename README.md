@@ -13,4 +13,3 @@ The source code of the application can be directly pulled into an IDE (e.g. Inte
 After the application is running, (assuming the application is running on localhost and port 8080) simply make a GET request to http://localhost:8080/v1/london-users. This will return all users either listed as being from London or whose longitude and latitude place them within 50 miles of London. 
 
 
-# london-users
